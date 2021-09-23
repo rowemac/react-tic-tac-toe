@@ -1,6 +1,13 @@
 import React from 'react'; 
 
-const Square = () => (
+// const props = {
+//     onClick: () => "function",
+//     value: "X"
+// };
+
+// const { value } = props; 
+
+const Square = ({ value, onClick }) => (
     <button onClick={onClick}>
         {value}
     </button>
